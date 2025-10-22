@@ -26,6 +26,7 @@ public class product {
     private String name;
     private double price;
     private int qty;
+    @JsonIgnore
     private String imageUrl;
 
     public double getAmount() {
